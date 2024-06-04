@@ -39,12 +39,12 @@ public class CarroController {
 
     public List<Carro> getExampleCars(Exception e){
         return Stream.of(
-                new Carro(234,"Picanto", "Kia", "gris", 25000),
-                new Carro(123,"Mustang", "Ford", "negro", 130000),
-                new Carro(4443,"Camaro", "Chevrolet", "amarillo", 125000),
-                new Carro(124,"Logan", "Renault", "gris", 30000),
-                new Carro(847,"Mini", "Cooper", "blanco", 60000),
-                new Carro(234,"Beatle", "Volkswagen", "azul", 35000)
+                new Carro(1,"Picanto", "Kia", "gris", 25000),
+                new Carro(2,"Mustang", "Ford", "negro", 130000),
+                new Carro(3,"Camaro", "Chevrolet", "amarillo", 125000),
+                new Carro(4,"Logan", "Renault", "gris", 30000),
+                new Carro(5,"Mini", "Cooper", "blanco", 60000),
+                new Carro(6,"Beatle", "Volkswagen", "azul", 35000)
         ).collect(Collectors.toList());
     }
     

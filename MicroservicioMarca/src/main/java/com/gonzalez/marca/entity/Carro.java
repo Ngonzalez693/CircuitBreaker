@@ -15,7 +15,7 @@ public class Carro {
 	private String nombre;
 	private String marca;
 	private String color;
-	private double price;
+	private int precio;
 	
 	public int getId() {
 		return id;
@@ -45,18 +45,18 @@ public class Carro {
 		this.color = color;
 	}
 	
-	public double getPrice() {
-		return price;
+	public double getPrecio() {
+		return precio;
 	}
-	public void setPrice(double price) {
-		this.price = price;
+	public void setPrecio(int precio) {
+		this.precio = precio;
 	}
 	
-	public Carro(String nombre, String marca, String color, double price) {
+	public Carro(String nombre, String marca, String color, int precio) {
 		this.nombre = nombre;
 		this.marca = marca;
 		this.color = color;
-		this.price = price;
+		this.precio = precio;
 	}
 	
 	public Carro() {
